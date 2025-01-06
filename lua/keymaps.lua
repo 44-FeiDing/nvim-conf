@@ -22,6 +22,13 @@ vim.keymap.set('n', '<C-Down>', ':resize +2<CR>', opts)
 vim.keymap.set('n', '<C-Left>', ':vertical resize -2<CR>', opts)
 vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 
+-- Set the Leader key to comma
+vim.g.mapleader = ","
+vim.g.maplocalleader = ","
+
+-- Tree
+
+
 -----------------
 -- Visual mode --
 -----------------
