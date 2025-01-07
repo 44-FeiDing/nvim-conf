@@ -13,5 +13,19 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     "tanvirtin/monokai.nvim",
-    { "kyazdani42/nvim-tree.lua", event = "VimEnter", dependencies = "nvim-tree/nvim-web-devicons" },
+    {
+        "kyazdani42/nvim-tree.lua",
+        event = "VimEnter",
+        dependencies = "nvim-tree/nvim-web-devicons"
+    },
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
+    'numToStr/Comment.nvim',
+    {
+        'windwp/nvim-autopairs',
+        event = "InsertEnter",
+        config = true
+    }
 })

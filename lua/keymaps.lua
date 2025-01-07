@@ -27,7 +27,7 @@ vim.g.mapleader = ","
 vim.g.maplocalleader = ","
 
 -- Tree
-
+vim.keymap.set('n', '<A-m>', ':NvimTreeToggle<CR>', opts)
 
 -----------------
 -- Visual mode --
