@@ -27,7 +27,15 @@ vim.g.mapleader = ","
 vim.g.maplocalleader = ","
 
 -- Tree
-vim.keymap.set('n', '<A-m>', ':NvimTreeToggle<CR>', opts)
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+
+-- lsp
+-- pluginKeys.lspKeybinding = function(mapbuf)
+--     mapbuf('n', '<leader>r', ':lua vim.lsp.buf.rename<CR>', opt)
+--     mapbuf('n', '<leader>a', ':lua vim.lsp.buf.code_action()<CR>', opt)
+--     mapbuf('n', '<leader>d', ':lua vim.lsp.buf.definition<CR>', opt)
+--     mapbuf('n', '<leader>f', ':lua vim.lsp.buf.format { async = true }<CR>', opt)
+-- end
 
 -----------------
 -- Visual mode --

@@ -27,5 +27,9 @@ require("lazy").setup({
         'windwp/nvim-autopairs',
         event = "InsertEnter",
         config = true
-    }
+    },
+    'hiphish/rainbow-delimiters.nvim',
+    "williamboman/mason.nvim",
+	"williamboman/mason-lspconfig.nvim",
+	"neovim/nvim-lspconfig",
 })

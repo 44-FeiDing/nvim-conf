@@ -7,4 +7,6 @@ require('plugins')
 require('colorscheme')
 require('plugins-config.nvim-tree')
 require('plugins-config.lualine')
+require('plugins-config.lspconfig')
+require('plugins-config.mason')
 
